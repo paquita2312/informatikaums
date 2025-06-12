@@ -1,5 +1,5 @@
 import { Head, Link } from '@inertiajs/react';
-import LogoUMS from '../../../public/build/assets/ums.png'
+import LogoUMS from '../assets/ums.png'
 
 export default function Welcome({ auth, laravelVersion, phpVersion }) {
     const handleImageError = () => {
